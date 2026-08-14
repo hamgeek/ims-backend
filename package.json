@@ -1,0 +1,33 @@
+{
+  "name": "ims-backend",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run --hot src/index.ts",
+    "lint": "lint .",
+    "test": "vitest --reporter=verbose",
+    "test:run": "vitest run --reporter=verbose",
+    "test:watch": "vitest --watch",
+    "test:coverage": "vitest run --coverage"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.9.1",
+    "@prisma/client": "^7.9.1",
+    "better-auth": "^1.6.27",
+    "hono": "^4.13.1",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/pg": "^8.21.0",
+    "@vitest/coverage-v8": "^4.1.10",
+    "eslint": "^10.8.1",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-simple-import-sort": "^14.0.0",
+    "globals": "^17.9.0",
+    "prettier": "^3.9.6",
+    "prisma": "^7.9.1",
+    "typescript-eslint": "^8.67.0",
+    "vitest": "^4.1.10",
+    "wrangler": "^4.123.0"
+  }
+}
