@@ -1,6 +1,7 @@
 import { Hono } from 'hono';
 import { cors } from 'hono/cors';
 
+import { env } from '../config/env';
 import { auth } from '../lib/auth';
 import categories from './categories/categories.route';
 import products from './products/products.route';
@@ -12,7 +13,7 @@ const routes = new Hono();
 routes.use(
   '/*',
   cors({
-    origin: 'http://localhost:4000',
+    origin: env.FRONTEND_URL,
     credentials: true,
   }),
 );
