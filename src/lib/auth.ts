@@ -15,6 +15,7 @@ export const auth = betterAuth({
       sameSite: 'None',
       httpOnly: true,
       secure: true,
+      partitioned: true,
     },
   },
 });
