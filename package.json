@@ -2,6 +2,7 @@
   "name": "ims-backend",
   "type": "module",
   "scripts": {
+    "start": "bun src/index.ts",
     "dev": "bun run --hot src/index.ts",
     "lint": "lint .",
     "test": "vitest --reporter=verbose",
