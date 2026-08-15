@@ -4,6 +4,8 @@ Backend REST API untuk **Inventory Management System (IMS)** yang digunakan untu
 
 Project ini dibangun dengan arsitektur modular sederhana menggunakan **Hono**, **Prisma ORM**, **PostgreSQL**, **Better Auth**, **Zod**, dan **TypeScript**.
 
+Frontend Repo : [https://github.com/hamgeek/ims-frontend](https://github.com/hamgeek/ims-frontend)
+
 ---
 
 ## 1. Teknologi
